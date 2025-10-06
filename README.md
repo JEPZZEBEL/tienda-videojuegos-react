@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+🎯 Descripción del proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una tienda virtual de videojuegos creada con React, como parte de la actividad “Mejorando funcionalidades clave en el eCommerce con React”.
+Su objetivo es aplicar conceptos de estado, efectos y renderizado condicional, mejorando la experiencia de usuario mediante componentes interactivos y datos dinámicos.
 
-## Available Scripts
+🧩 Principales características:
 
-In the project directory, you can run:
+Catálogo de productos cargado dinámicamente desde un archivo JSON.
 
-### `npm start`
+Filtros por categoría y barra de búsqueda.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Carrito de compras interactivo con persistencia en localStorage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Simulación de compra con planes de membresía.
 
-### `npm test`
+Despliegue en línea con GitHub Pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Demo en línea
 
-### `npm run build`
+🔗 Ver Tienda Online
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧠 Tecnologías utilizadas
+Tecnología	Descripción
+⚛️ React	Framework principal para la interfaz.
+🧩 React Router DOM	Manejo de rutas y navegación.
+💾 LocalStorage	Persistencia de datos del carrito.
+🖼️ CSS personalizado	Estilo visual con efectos neon y diseño moderno.
+📦 gh-pages	Despliegue automatizado en GitHub Pages.
+🧱 Estructura del proyecto
+📦 tienda-videojuegos-react
+├── 📁 public
+│   ├── 📁 img              # Imágenes de productos
+│   ├── 📁 data             # Archivo productos.json
+│   ├── index.html
+│   └── manifest.json
+│
+├── 📁 src
+│   ├── 📁 components       # Componentes reutilizables
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── CategorySection.jsx
+│   │   ├── ProductList.jsx
+│   │   ├── MembershipPlans.jsx
+│   │   ├── PaymentMethods.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── Footer.jsx
+│   │
+│   ├── 📁 pages            # Páginas principales
+│   │   └── CartPage.jsx
+│   │
+│   ├── App.js             # Lógica principal del sitio
+│   ├── App.css            # Estilos globales
+│   └── index.js
+│
+├── package.json
+├── README.md
+└── .gitignore
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ Instalación y ejecución local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sigue estos pasos si deseas ejecutar el proyecto en tu entorno local:
 
-### `npm run eject`
+# 1️⃣ Clonar el repositorio
+git clone https://github.com/JEPZZEBEL/tienda-videojuegos-react.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 2️⃣ Entrar al directorio del proyecto
+cd tienda-videojuegos-react
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 3️⃣ Instalar dependencias
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 4️⃣ Ejecutar el servidor de desarrollo
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Luego abre en tu navegador:
+👉 http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🌐 Despliegue en GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+El proyecto se despliega automáticamente en GitHub Pages usando el paquete gh-pages.
 
-### Code Splitting
+Pasos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 1️⃣ Crear la build optimizada
+npm run build
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 2️⃣ Desplegar a GitHub Pages
+npm run deploy
