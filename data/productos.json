@@ -1,0 +1,25 @@
+[
+  { "id": 1,  "nombre": "Doom",               "precio": 19.990, "categoria": "pc",         "img": "doompc.jpg" },
+  { "id": 2,  "nombre": "Sims 4",             "precio": 24.990, "categoria": "pc",         "img": "sims4.jpg" },
+  { "id": 3,  "nombre": "Diablo",             "precio": 22.990, "categoria": "pc",         "img": "diablo.jpg" },
+  { "id": 4,  "nombre": "Ciberpunk 2077",     "precio": 9.990,  "categoria": "pc",         "img": "Ciberpunk2077.jpg" },
+  { "id": 5,  "nombre": "Age of Empire",      "precio": 19.990, "categoria": "pc",         "img": "AgeofEmpire.jpg" },
+
+  { "id": 6,  "nombre": "Spiderman 2",        "precio": 29.990, "categoria": "consolas",    "img": "Spiderman2.jpg" },
+  { "id": 7,  "nombre": "Hogwarts Legacy",    "precio": 25.990, "categoria": "consolas",    "img": "HogwartsLegacy.jpg" },
+  { "id": 8,  "nombre": "God of Wars",        "precio": 21.990, "categoria": "consolas",    "img": "GodofWars.jpg" },
+  { "id": 9,  "nombre": "Balatro",            "precio": 32.990, "categoria": "consolas",    "img": "Balatro.jpg" },
+  { "id": 10, "nombre": "It Takes Two",       "precio": 27.990, "categoria": "consolas",    "img": "ItTakesTwo.jpg" },
+
+  { "id": 11, "nombre": "Headset 7.1",        "precio": 25.990, "categoria": "accesorios", "img": "Headset7.1.jpg" },
+  { "id": 12, "nombre": "Teclado Mec",       "precio": 29.990, "categoria": "accesorios", "img": "Teclado.jpg" },
+  { "id": 13, "nombre": "Mouse RGB",          "precio": 14.990, "categoria": "accesorios", "img": "MouseRGB.jpg" },
+  { "id": 14, "nombre": "Gamepad Pro",        "precio": 23.990, "categoria": "accesorios", "img": "GamepadPro.jpg" },
+  { "id": 15, "nombre": "Soporte Headset",    "precio": 7.990,  "categoria": "accesorios", "img": "SoporteHeadset.jpg" },
+
+  { "id": 16, "nombre": "Oferta - RPG Clásico",     "precio": 12.990, "categoria": "ofertas", "img": "RPGClásico.jpg" },
+  { "id": 17, "nombre": "Oferta - Aventura Indie",  "precio": 8.990,  "categoria": "ofertas", "img": "AventuraIndie.jpg" },
+  { "id": 18, "nombre": "Oferta - Shooter Retro",   "precio": 9.990,  "categoria": "ofertas", "img": "ShooterRetro.jpg" },
+  { "id": 19, "nombre": "Oferta - Simulación",      "precio": 11.990, "categoria": "ofertas", "img": "Simulación.jpg" },
+  { "id": 20, "nombre": "Oferta - Puzles Deluxe",   "precio": 5.990,  "categoria": "ofertas", "img": "PuzlesDeluxe.jpg" }
+]
